@@ -39,11 +39,9 @@ The figure below is the sample visualization of TELUS traded using these stock i
 From this figure:
 * Boiler's bands[BBand] triggers the most number of buy and sell signal, fixing on every single local minimum and local maximum. This process is a little aggressive considering that every trade costs $5, and is more suitable for short term trader using brokage-fee free platforms like Robinhood. 
 * RSI triggers less amount of buy and sell signals compared to BBands. However, when stocks are on the hype train (aggressively retail buyers that introduces a sharp increase in the stock price), the sell signal will be triggered throughout this entire timeline. This can lead to early trigger of stock sell (before the maximal price). 
-* MFI triggers the least amount of 
-* Combining all three triggers significantly reduces the number of triggers 
-The observed trends were also cohesive for other companies ( see notebook). 
-
-
+* MFI has the least amount of buy/sell triggers, possibly because the incorporation of volume as a metric. In most cases, these cases are on the local maximum/minimum (low number of false positives). However, this inevitably also miss out on some good buy/sell opportunites. 
+* Combining all three triggers as a trading condition significantly reduces the number of buy/sell triggers, and these triggers can miss out on some of the more major dip/peak. This is not recommended. 
+* The observed trends metnioned above were also cohesive for other companies ( see notebook). 
 ![image](https://user-images.githubusercontent.com/29676594/115354572-c7d1bb80-a187-11eb-9e3a-0a1dcc0893f5.png)
 
 
@@ -51,3 +49,4 @@ The observed trends were also cohesive for other companies ( see notebook).
 
 
 
+### Author: Xun Xun Shi
