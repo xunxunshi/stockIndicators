@@ -41,7 +41,7 @@ From this figure:
 * RSI triggers less amount of buy and sell signals compared to BBands. However, when stocks are on the hype train (aggressively retail buyers that introduces a sharp increase in the stock price), the sell signal will be triggered throughout this entire timeline. This can lead to early trigger of stock sell (before the maximal price). 
 * MFI has the least amount of buy/sell triggers, possibly because the incorporation of volume as a metric. In most cases, these cases are on the local maximum/minimum (low number of false positives). However, this inevitably also miss out on some good buy/sell opportunites. 
 * Combining all three triggers as a trading condition significantly reduces the number of buy/sell triggers, and these triggers can miss out on some of the more major dip/peak. This is not recommended. 
-* The observed trends metnioned above were also cohesive for other companies ( see notebook). 
+* The observed trends metnioned above were also cohesive for other companies (see notebook). 
 ![image](https://user-images.githubusercontent.com/29676594/115354572-c7d1bb80-a187-11eb-9e3a-0a1dcc0893f5.png)
 
 
