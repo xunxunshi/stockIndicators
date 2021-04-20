@@ -11,7 +11,7 @@ These indicators include :
 * Combination of all three 
 
 
-### Objectives 
+### Objective and Process 
 The objective of this project is broken into three parts : 
 #### 1) Visualize the trades for each stock within my portfolio based on trading with indicators (completed)
 
